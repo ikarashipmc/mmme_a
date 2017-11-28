@@ -747,12 +747,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   line-height: 40px;
-  height: 230px;
-  background: url(../img/sp/wallpaper.jpg) no-repeat left bottom;
+  /*height: 230px;
+  background: url(../img/sp/wallpaper.jpg) no-repeat left bottom;*/
 }
-#wallpaper #wallpaperPrev #wallpaperB dt {
+/*#wallpaper #wallpaperPrev #wallpaperB dt {
   background-position: -340px bottom;
-}
+}*/
 #wallpaper #wallpaperPrev dd {
   text-indent: -9999px;
   float: left;

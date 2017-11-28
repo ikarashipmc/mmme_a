@@ -22,6 +22,21 @@
   background-image: url(../img/comment_pict.jpg);
 }
 
-#wallpaper #wallpaperPrev dt {
+/*#wallpaper #wallpaperPrev dt {
   background-image: url(../img/wallpaper.jpg);
+}*/
+
+#wallpaper #wallpaperPrev #wallpaperA #img {
+  /*background-image: url(../img/wallpaper.jpg);*/
+  background-image: url(../img/IMG_0810.jpg);
+  background-position: -50px;
+  width: 340px;
+  height: 200px;
+}
+
+#wallpaper #wallpaperPrev #wallpaperB #img {
+  background-image: url(../img/IMG_0811.jpg);
+  background-position: -50px;
+  width: 340px;
+  height: 200px;
 }
