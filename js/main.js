@@ -1,3 +1,8 @@
+var dispMM = function() {
+console.log("in");
+	$("#mm_p").animate({'opacity': 1}, 200);
+}
+
 $(function(){
   "use strict";
 

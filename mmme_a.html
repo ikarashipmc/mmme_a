@@ -19,7 +19,7 @@
 	</noscript>
 <link href="./css/pc.css" rel="stylesheet" type="text/css"><script type="text/javascript" charset="utf-8" async="" src="./js/button.ff75f6bb802cdab010d3711201caf594.js"></script></head>
 <body style="padding-top: 19px; background-position: 0px 50px; background-repeat: repeat-x; user-select: auto;">
-	<p class="attention" style="line-height:30px; text-align:center; background-color:#141414; color:#fff">プロンプトになれました。詳しくは<a target="_blank">こちら</a>。</p>
+	<p class="attention" style="line-height:30px; text-align:center; background-color:#141414; color:#fff">プロンプトになれました。詳しくは<span style="color: #ff8800;" onclick="javascript:dispMM();">こちら</span>。</p>
 <div id="wrapper">
 	<div id="contents">
 	
@@ -47,20 +47,20 @@
 					<li id="subTtl" style="display: block; opacity: 1; top: 190px;">世界一即戦力な男から人事担当者のキミへ</li>
 				</ul>
 			</h1>
-			<div>
 			<img src="./img/mmme_01.png" alt="" width="244" height="488" id="kikuchiMain" style="display: block; opacity: 0; left: 474px;">
-			</div>
-
+<!--
 			<div id="btnFollowTop" style="display: block; opacity: 1; top: 448px;">
 				<a target="_blank"><img src="./img/btn_follow_s.png" alt="菊地良をフォローする"></a>
+			
 				<p class="overlay" style="left: -200px;"></p>
 			</div>
+			-->
 
-			<div id="movie">
+			<div id="movie" style="background-color: #ffffff; width:300; height:225; margin-left: 50px;">
 				<!--
 				<iframe width="400" height="225" src="./files/ehzVUEHOcSk.html" frameborder="0" allowfullscreen=""></iframe>
 				-->
-				<img src="./img/IMG_0810.JPG" alt="" width="300" height="225" style="display: block; margin-left: 55px;">
+				<img src="./img/IMG_0810.JPG" alt="" width="300" height="225" style="display: block; opacity: 0;" id="mm_p">
 			</div>
 	
 		</header><!--/#mainVisual-->
@@ -269,11 +269,11 @@
 			</ul>
 
 		</article> --><!--/#wallpaper-->
-
+<!--
 		<footer>
 			<p id="devCredit"><a target="blank">Developed by neetworks</a></p>
 		</footer>
-
+-->
 		<a id="btnTopScroll" href="#mainVisual" style="display: none;">TOP</a>
 
 	</div><!--/#contents-->
